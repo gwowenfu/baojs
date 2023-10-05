@@ -9,3 +9,14 @@ app.get("/", (ctx) => {
 
 const server = app.listen({ port: port });
 console.log(`Server listening on ${server.hostname}:${port}`);
+
+
+
+// const server = Bun.serve({
+//   port: 3000,
+//   fetch(req) {
+//     return new Response("Bun!");
+//   },
+// });
+
+// console.log(`Listening on http://localhost:${server.port} ...`);

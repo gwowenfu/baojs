@@ -28,3 +28,14 @@ This example is a simple [Bao.js](https://github.com/mattreid1/baojs) webserver 
 ## 📝 Notes
 
 Both this example and Bun are currently experimental and should not be used in production.
+
+
+If you're using TypeScript, you may see a type error on the Bun global. To fix this, install bun-types.
+
+bun add -d bun-types
+
+## Host URL 
+https://railway.app/project/c3bf2b0d-b9c5-448e-8181-b0144c068993/service/1485f71b-1a32-4be1-93f0-fd69e9e174d4
+
+## App URL
+https://baojs-production-d7a0.up.railway.app/

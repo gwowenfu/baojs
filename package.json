@@ -1,6 +1,6 @@
 {
   "dependencies": { "baojs": "^0.1.3" },
   "devDependencies": {
-    "bun-types": "^0.2.1"
+    "bun-types": "^1.0.5-canary.20231005T140125"
   }
 }
