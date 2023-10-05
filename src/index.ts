@@ -4,7 +4,7 @@ const app = new Bao();
 const port = parseInt(process.env.PORT || "8080");
 
 app.get("/", (ctx) => {
-  return ctx.sendText("Hello world from Bao.js running on Railway!");
+  return ctx.sendText("__ Hello world from Bao.js running on Railway! __");
 });
 
 const server = app.listen({ port: port });
